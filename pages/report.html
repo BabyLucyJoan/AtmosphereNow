@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../styles/report.css" />
+    <title>AtmosphereNow</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter city name" spellcheck="false" />
+        <button>
+          <img src="../assets/images/search.png" alt="search-btn" />
+        </button>
+      </div>
+      <div class="weather">
+        <img
+          src="../assets/images/rain.png"
+          alt="conditon"
+          class="weather-icon"
+        />
+        <h1 class="temp">°C</h1>
+        <h2 class="city">Please choose a city</h2>
+        <div class="details">
+          <div class="col">
+            <img src="../assets/images/humidity.png" alt="humidity" />
+            <div>
+              <p class="humidity">%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="../assets/images/wind.png" alt="wind" />
+            <div>
+              <p class="wind">km/hr</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="../index.html">Want to Logout?</a>
+
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>
